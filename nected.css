@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    border: 1px solid rgb(213, 211, 211);
+    max-width: 550px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    width: 80px;
+    height: 22px;
+    margin: 10px 0px 20px 0px;
+  }
+  
+  h1 {
+    color: #333333;
+  }
+  
+  p {
+    color: #666666;
+  }
+
+
+/* Button Section */
+  
+
+  .button {
+    padding: 12px 85px;
+  background: linear-gradient(180deg, #3c76f4, transparent) #3c76f4;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 1s;
+  border-radius: 6px;
+  }
+  
+  .button:hover {
+    background-color: #000000;
+  color: #fff;
+  }
+
+  .connect {
+    font-size: 12px;
+    color: #999;
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+
+  a:link {
+    text-decoration: none;
+    font-size: 12px;
+  }
+
+  a:hover {
+    color: darkgreen;
+  }
+
+
+/* Footer Section */
+
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .footer .left-corner img {
+    width: 80px;
+    height: 22px;
+  }
+  
+  .footer .right-corner .img1 {
+    width: 15px;
+    height: 15px;
+    margin-left: 116px;
+  }
+
+  .footer .right-corner .img2 {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+  }
+  .pLeft1 {
+    font-size: 11px;
+    text-align: left;
+    line-height: 1px;
+  }
+
+  .pLeft2 {
+    font-size: 11px;
+  }
+
+  .pRight1 {
+    font-size: 11px;
+    text-align: right;
+    line-height: 1px;
+  }
+
+  .pRight2 {
+    font-size: 11px;
+    text-align: right;
+    line-height: 12px;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media only screen and (max-width: 550px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    .footer {
+      flex-direction: column;
+    }
+
+    .footer .left-corner {
+        text-align: left;
+      } 
+
+    .footer .right-corner {
+      text-align: right;
+    } 
+  }
+  
